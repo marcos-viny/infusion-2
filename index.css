@@ -1,0 +1,17 @@
+header {
+    color: red;
+    padding: 30px;
+    background-color: yellow;
+}
+
+main {
+    color: aqua;
+    background-color: purple;
+    width: 100px;
+    height: 40px;
+}
+
+footer {
+    color: blueviolet;
+    background-color: green;
+}
