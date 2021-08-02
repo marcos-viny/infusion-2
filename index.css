@@ -13,7 +13,8 @@ main {
 
 footer {
     color: blueviolet;
-    background-color: green;
+    background-color: black;
     width: 90px;
     height: 500px;
+    margin: 20px;
 }
