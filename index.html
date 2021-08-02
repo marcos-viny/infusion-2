@@ -5,14 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos/index.css">
+    <link rel="stylesheet" href="estilos/mobile.css">
 </head>
 
 <body>
-    <header>Marcos</header>
-    <main>Vinicius</main>
-    <footer>Moreira</footer>
+    <header class="header">
+        <a href="#" class="logo">Infusion</a>
+        <nav id="nav" class="nav">
+            <button id="btn-mobile">
+                <span aria-label="Abrir Menu" class="haburguer" aria-haspopup="true" aria-controls="menu" aria-expanded="false"></span>
+            </button>
+            <ul role="menu" class="menu">
+                <li><a href="#">Podutos</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Ecomendar</a></li>
+                <li><a href="#">Devolver</a></li>
+                <li><a href="#">Reclamações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section">
+        <img src="imagens/main.jpg" alt="imagem logo" class="section__img">
+        <h1 class="section__titulo">
+            Cutting Edge WP Business Theme
+        </h1>
+        <p class="section__paragrafo">Gutful of bottlo no dramas he's got a massive hooroo.</p>
+        <a href="#" class="section__botao">Buy it now</a>
+    </section>
+
+    <div>
+        <main>
+            <article>
+                <img src="imagens/card1.jpg" alt="">
+            </article>
+        </main>
+    </div>
+    <script src="jsjs/index.js"></script>
 </body>
 
 </html>

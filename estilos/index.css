@@ -1,0 +1,104 @@
+body,
+ul {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    padding: 16px;
+    height: 70px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #63c6ae;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav li {
+    padding: 18px;
+    flex-grow: 1;
+}
+
+.nav li:hover {
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    transition-delay: 0.10s;
+    transform: translatey(30px);
+    background-color: white;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+
+.menu a {
+    display: block;
+    padding: 8px;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+.section {
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.section__img {
+    position: absolute;
+    width: 100%;
+}
+
+.section__titulo {
+    position: relative;
+    background-color: #63c6ae;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 30px 20px;
+    text-transform: uppercase;
+}
+
+.section__paragrafo {
+    position: relative;
+    background-color: #242a2c;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.section__botao {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}

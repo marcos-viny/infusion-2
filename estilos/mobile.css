@@ -1,0 +1,72 @@
+@media (max-width: 600px) {
+    .menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background-color: #e7e7e7;
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: auto;
+    }
+    #nav.ativado .menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+    }
+    .menu a {
+        padding: 16px 0px;
+        margin: 0px 16px;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+    }
+    #btn-mobile {
+        display: flex;
+        padding: 8px 16px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        gap: 8px;
+    }
+    .haburguer {
+        width: 24px;
+        border-top: 4px solid;
+        display: block;
+        color: black;
+    }
+    .haburguer::after,
+    .haburguer::before {
+        border: 2px solid;
+        width: 20px;
+        background: currentColor;
+        content: '';
+        display: block;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.ativado .haburguer {
+        border-top-color: transparent;
+    }
+    #nav.ativado .haburguer::before {
+        transform: rotate(135deg);
+    }
+    #nav.ativado .haburguer::after {
+        transform: rotate(-135deg);
+        top: -8px;
+    }
+    .section__img {
+        height: 85%;
+        object-fit: cover;
+    }
+    .section__titulo {
+        margin: 20px;
+    }
+    .section__paragrafo {
+        margin: 10px 60px;
+    }
+    .section__botao {
+        margin-top: 20px;
+    }
+}
