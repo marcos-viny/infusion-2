@@ -14,4 +14,6 @@ main {
 footer {
     color: blueviolet;
     background-color: green;
+    width: 90px;
+    height: 500px;
 }
