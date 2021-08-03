@@ -228,3 +228,59 @@ ul {
     display: block;
     width: 100%;
 }
+
+.figure {
+    background-color: #242a2c;
+    padding: 125px 0px 100px;
+    width: 100%;
+    overflow: auto;
+}
+
+.figure-img {
+    white-space: nowrap;
+}
+
+.figure-img figure {
+    display: inline-block;
+}
+
+.js .figure {
+    overflow: hidden;
+}
+
+.js .figure .figure-img {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 950px;
+    color: white;
+}
+
+.js .figure figure {
+    opacity: 0;
+    transition: 1s opacity;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.js .figure figure.show {
+    opacity: 1;
+    position: static;
+}
+
+.js .figure .prev,
+.js .figure .next {
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.js .figure .prev {
+    left: 5px;
+}
+
+.js .figure .next {
+    right: 5px;
+}
