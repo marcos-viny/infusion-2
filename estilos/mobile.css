@@ -13,7 +13,7 @@
         overflow-y: auto;
     }
     #nav.ativado .menu {
-        height: 70vh;
+        height: 80vh;
         visibility: visible;
     }
     .nav li:hover {
@@ -66,6 +66,7 @@
     .section__img {
         height: 85%;
         object-fit: cover;
+        margin-top: -10px;
     }
     .section__titulo {
         margin: 20px;
