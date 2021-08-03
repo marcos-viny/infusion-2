@@ -79,6 +79,17 @@
     }
     .section-cards {
         display: block;
-        margin-bottom: 100px;
+    }
+    .section-contente .container {
+        display: block;
+    }
+    .section-img__imagens {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: auto;
+    }
+    .section-img__imagens img {
+        display: block;
+        width: 100%;
     }
 }
