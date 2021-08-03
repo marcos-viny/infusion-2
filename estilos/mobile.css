@@ -13,8 +13,15 @@
         overflow-y: auto;
     }
     #nav.ativado .menu {
-        height: calc(100vh - 70px);
+        height: 70vh;
         visibility: visible;
+    }
+    .nav li:hover {
+        transform: translateY(0px);
+        background-color: #e7e7e7;
+    }
+    nav a:hover {
+        color: red;
     }
     .menu a {
         padding: 16px 0px;
@@ -68,5 +75,9 @@
     }
     .section__botao {
         margin-top: 20px;
+    }
+    .section-cards {
+        display: block;
+        margin-bottom: 100px;
     }
 }
