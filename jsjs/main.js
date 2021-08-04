@@ -9,4 +9,11 @@
         btnPreve: '.prev',
         btnNext: '.next'
     });
+
+    var carroselImg = new Carrosel({
+        container: '.text__div',
+        itens: 'figure',
+        btnPreve: '.prev',
+        btnNext: '.next'
+    });
 })()

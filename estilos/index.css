@@ -231,7 +231,7 @@ ul {
 
 .figure {
     background-color: #242a2c;
-    padding: 125px 0px 100px;
+    padding: 125px 0px 120px;
     width: 100%;
     overflow: auto;
 }
@@ -242,6 +242,11 @@ ul {
 
 .figure-img figure {
     display: inline-block;
+}
+
+.figure img {
+    width: 100%;
+    display: flex;
 }
 
 .js .figure {
@@ -278,9 +283,109 @@ ul {
 }
 
 .js .figure .prev {
-    left: 5px;
+    left: -3px;
 }
 
 .js .figure .next {
     right: 5px;
+}
+
+.text-section {
+    background-color: #63c6ae;
+    padding: 50px 0px;
+    border-bottom: 12px solid #48b9a1;
+}
+
+.text__div {
+    display: block;
+}
+
+.text__div h2 {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.text__div figcaption {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.js .text-section .text__div {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+}
+
+.js .text-section figure {
+    opacity: 0;
+    transition: 1s opacity;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.js .text-section figure.show {
+    opacity: 1;
+    position: static;
+}
+
+.js .text__div .prev,
+.js .text__div .next {
+    z-index: 3;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+}
+
+.js .text-section .prev {
+    left: 15px;
+}
+
+.js .text-section .next {
+    right: 15px;
+}
+
+.rodape {
+    background-color: #242a2c;
+    padding: 50px 0px 50px 0px;
+    color: #454e51;
+}
+
+.rodape h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.rodape p {
+    display: block;
+    font-size: 16px;
+}
+
+.rodape__links {
+    display: block;
+    padding: 40px;
+}
+
+.rodape__links li {
+    list-style: none;
+    margin-bottom: 20px;
+    width: 100px;
+    flex-grow: 1;
+}
+
+.rodape__links li:hover {
+    color: white;
+    background-color: #48b9a1;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    transition-delay: 0.10s;
+    transform: translatex(10px);
+    padding: 10px;
+    border-radius: 5px;
 }
