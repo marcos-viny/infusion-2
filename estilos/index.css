@@ -379,6 +379,11 @@ ul {
     flex-grow: 1;
 }
 
+.rodape__links a {
+    text-decoration: none;
+    color: #454e51;
+}
+
 .rodape__links li:hover {
     color: white;
     background-color: #48b9a1;
