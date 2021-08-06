@@ -415,7 +415,7 @@ ul {
 .modal {
     background-color: white;
     width: 60%;
-    min-width: 300px;
+    min-width: 250px;
     padding: 40px;
     border: 10px solid #988b7a;
     box-shadow: 0 0 0 10px white;
