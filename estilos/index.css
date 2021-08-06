@@ -403,7 +403,7 @@ ul {
     top: 0px;
     left: 0px;
     z-index: 2000;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -415,7 +415,7 @@ ul {
 .modal {
     background-color: white;
     width: 60%;
-    min-width: 220px;
+    min-width: 200px;
     padding: 40px;
     border: 10px solid #988b7a;
     box-shadow: 0 0 0 10px white;
